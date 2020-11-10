@@ -1,0 +1,155 @@
+html, body {
+font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+body {
+text-align: center;
+align-content: center;
+margin-top: 0px;
+font-size: 13px;
+background-color: #141A20;
+}
+
+header, main, body {
+margin-left: auto;
+margin-right: auto;
+}
+
+header, main {
+width: 100%;
+max-width: 1440px;
+}
+
+header {
+background: #fff;
+display: block;
+padding-top: 0;
+}
+
+.first_screen {
+background-image: url(img/bg.png);
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+display: flex;
+flex-direction: column;
+color: white;
+}
+
+.logo {
+margin-top: 40px;
+}
+
+.heading {
+margin-top: auto;
+margin-bottom: auto;
+}
+
+h1 {
+font-family: 'BebasNeueBold';
+font-weight: normal;
+font-style: normal;
+font-size: 60px;
+margin-top: 85px;
+margin-bottom: 0px;
+letter-spacing: 5.70937px;
+line-height: 70px;
+}
+
+.first_screen p {
+font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.5px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.scroll {
+margin-bottom: 71px;
+font-size: 11px;
+letter-spacing: 3.7px;
+}
+
+.navigation {
+height: 65px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 250px;
+border-bottom: 1px solid #E6E6E6;
+border-top: 1px solid #E6E6E6;
+}
+
+nav a {
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1.09091px;
+color: black;
+text-decoration: none;
+}
+
+nav a:hover {
+font-weight: 700;
+color: #00A4E5;
+transition: color 0.2s;
+}
+
+nav a:not(:last-child) {
+padding-right: 42.5px;
+}
+
+.story {
+padding-top: 58px;
+padding-bottom: 68px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+h2 {
+margin-top: 0px;
+margin-bottom: 10px;
+letter-spacing: 2.30625px;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+}
+
+.line {
+width: 50px;
+height: 2px;
+border: none;
+background-color: #00A4E5;
+margin: auto;
+}
+
+.story_content {
+
+}
+
+.want_to {
+background-image: url(img/footer_bg.png);
+background-size: cover;
+background-position: center;
+height: 499px;
+}
+
+footer {
+width: 100%;
+max-width: 1440px;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+}
+
+.footer_nav {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 43px;
+}
